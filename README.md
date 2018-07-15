@@ -12,7 +12,7 @@ password: orangepi<br/>
 
 connection:<br/>
 --------------
-[[https://raw.githubusercontent.com/Nathalis/ILI9341-Orange-Pi-Zero/master/RPIZERO-28inch_ILI9341.png]]
+![alt text](https://raw.githubusercontent.com/Nathalis/ILI9341-Orange-Pi-Zero/master/RPIZERO-28inch_ILI9341.png)
 
 
 My config:
