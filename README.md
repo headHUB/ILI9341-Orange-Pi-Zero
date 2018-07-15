@@ -18,7 +18,7 @@ in
 fbtft_device
 
 in
-/etc/modprobe.d/fbtft.conf 
+/etc/modprobe.d/fbtft.conf
 options fbtft_device custom name=fb_ili9341 gpios=reset:1,dc:0,led:3 speed=48000000 fps=25 rotate=90 busnum=1 bgr=1 txbuflen=65536
 
 or just upload content of repository
