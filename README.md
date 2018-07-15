@@ -38,5 +38,5 @@ and install and run this script:
 chmod +x /etc/init.d/LCD.sh
 update-rc.d LCD.sh defaults
 
-
+![alt text](https://raw.githubusercontent.com/Nathalis/ILI9341-Orange-Pi-Zero/master/IMG_20180715_123601.jpg)
 
