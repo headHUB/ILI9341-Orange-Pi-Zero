@@ -7,20 +7,36 @@ http://www.retrorangepi.org/download/
 
 default login:
 --------------
-login: root
-password: orangepi
+login: root<br/>
+password: orangepi<br/>
+
+connection:<br/>
+--------------
+https://raw.githubusercontent.com/Nathalis/ILI9341-Orange-Pi-Zero/master/RPIZERO-28inch_ILI9341.png
 
 
 My config:
 --------------
-in
-/etc/modules-load.d/fbtft.conf
-fbtft_device
+in<br/>
+/etc/modules-load.d/fbtft.conf<br/>
+fbtft_device<br/>
 
-in
-/etc/modprobe.d/fbtft.conf
-options fbtft_device custom name=fb_ili9341 gpios=reset:1,dc:0,led:3 speed=48000000 fps=25 rotate=90 busnum=1 bgr=1 txbuflen=65536
+in<br/>
+/etc/modprobe.d/fbtft.conf<br/>
+options fbtft_device custom name=fb_ili9341 gpios=reset:1,dc:0,led:3 speed=48000000 fps=25 rotate=90 busnum=1 bgr=1 txbuflen=65536<br/>
+
+and you need run at startup:
+--------------
+con2fbmap 1 8
+ 
 
 or just upload content of repository
 --------------
+
+and install and run this script:
+--------------
+chmod +x /etc/init.d/LCD.sh
+update-rc.d LCD.sh defaults
+
+
 
